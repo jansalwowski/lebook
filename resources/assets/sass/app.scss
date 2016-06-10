@@ -1,0 +1,9 @@
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+@import "node_modules/font-awesome/scss/font-awesome";
+//@import "https://fonts.googleapis.com/css?family=Lato:100,300,400,700";
+
+@import "./partials/general";
+@import "./partials/post";
+@import "./partials/comment";
+@import "./partials/alerts";
+@import "./partials/vue-autocomplete";

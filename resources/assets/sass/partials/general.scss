@@ -1,0 +1,59 @@
+body {
+  padding-top: 60px;
+  font-family: 'Lato';
+}
+
+.fa-btn {
+  margin-right: 6px;
+}
+
+.result {
+  font-size: 15px;
+  color: red;
+}
+
+[v-cloak] {
+  display: none;
+}
+
+.navbar-avatar {
+  padding: 0;
+  margin: 0;
+  a{
+    height: 50px;
+  }
+
+  img {
+    margin-top: -5px;
+    height: 30px;
+    -webkit-box-shadow: 0 0 4px #c3c3c3;
+    -moz-box-shadow: 0 0 4px #c3c3c3;
+    box-shadow: 0 0 4px #c3c3c3;
+  }
+
+  .user{
+    margin-left: 10px;
+  }
+}
+
+.avatar{
+  height: 40px;
+  -webkit-box-shadow: 0 0 3px #c3c3c3;
+  -moz-box-shadow: 0 0 3px #c3c3c3;
+  box-shadow: 0 0 3px #c3c3c3;
+  margin-top: -7px;
+  margin-right: 5px;
+}
+
+.avatar-small{
+  height: 25px;
+  -webkit-box-shadow: 0 0 2px #c3c3c3;
+  -moz-box-shadow: 0 0 2px #c3c3c3;
+  box-shadow: 0 0 2px #c3c3c3;
+  margin-top: -4px;
+  margin-right: 5px;
+}
+
+.date{
+  color: #777777;
+}

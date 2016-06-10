@@ -1,0 +1,52 @@
+//$liked-color: #002DFF;
+//$author-color: #5586f6;
+
+
+.comment {
+  position: relative;
+  .panel-body {
+    padding-bottom: 0;
+  }
+  a {
+    font-weight: bold;
+    color: $gray-light;
+    text-decoration: none;
+    cursor: pointer;
+    &:hover {
+      color: lighten($liked-color, 10);
+    }
+  }
+
+  .liked {
+    color: $liked-color;
+
+  }
+
+  .author {
+    color: $author-color;
+  }
+
+  textarea {
+    resize: vertical;
+  }
+
+  .comments {
+    margin-left: 10px;
+  }
+
+  hr {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .options {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+    button {
+      color: $gray-light;
+    }
+  }
+
+}

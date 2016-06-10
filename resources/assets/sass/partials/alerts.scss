@@ -1,0 +1,16 @@
+.alert{
+  z-index: 100 !important;
+}
+
+.alert.top {
+  top: 70px !important;
+}
+
+.alert.top-right {
+  top: 70px !important;
+  right: 20px !important
+}
+
+nav .caret{
+  margin-top: 12px;
+}
